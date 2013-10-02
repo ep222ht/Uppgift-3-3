@@ -12,7 +12,6 @@
     background-position:center center;
     background-repeat:no-repeat;
     overflow:hidden;
-    
 }
 
 #container
@@ -21,34 +20,38 @@
     padding:0;
     margin:0 auto ;
     border:1px solid red;
-    }
+}
+
 #menu
 {
     overflow:hidden;
     display:block;
     background-color:rgb(81,71,61);
 }
+
 #menu ul li 
 {
     list-style-type:none;
     display:inline-block;
-    height:25px;
+    height:0;
     margin:0;
     padding:0;
     text-align:center;
     background-color:rgb(81,71,61);
 }
+
 #menu li a 
 {
     display:block;
-    padding:15px;
+    padding-bottom:15px;
+    padding-right:40px;
     margin:0;
-    height:30px;
-    width:0 auto;
+    height:20px;
     background-color:gray;
     color:white;
     text-decoration:none;
     text-transform:capitalize;
+    text-align:center;
 }
 #menu a
 {
@@ -59,6 +62,10 @@
 {
     background-color:rgb(234,231,210);
     color:gray;
+}
+#menu li a:hover
+{
+    background-color:rgb(192,192,192);
 }
 
 #content
@@ -75,7 +82,11 @@
     float:left;
     width:335px;
     padding:0;
-    margin:0; 
+    margin:0;
+    border-right-style:dashed;
+    border-color:gray;
+    border-width:1px;
+    
 }
 #maincontent img
 {
@@ -85,7 +96,7 @@
 #maincontent h1
 {
     font:Verdana;
-    font-size:24px;
+    font-size:28px;
     color:gray;
 }
 #subcontent
@@ -94,6 +105,7 @@
     width:250px;
     padding:0;
     margin:0; 
+
 }
 #subcontent h1
 {
@@ -131,8 +143,8 @@
 
 
 
-    a:link {color:white;}  /* unvisited link */
-    a:visited {color:#white;}  /* visited link */
+    a:link {color:gray;}  /* unvisited link */
+    a:visited {color:gray;}  /* visited link */
     a:hover {color:rgb(192,192,192);}  /* mouse over link */
     a:active {color:gray;}  /* selected link */ 
     
