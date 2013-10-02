@@ -1,1 +1,86 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#topbar 
+{
+    text-align:right;
+    background-color:rgb(81,71,61);
+}
+
+#container
+{
+    width:960px;
+    padding:0;
+    margin:0 auto ;
+    border:1px solid red;
+    /*background-image:url('pics/coffey.jpg');
+    background-repeat:no-repeat;
+    background-position:top;*/
+}
+
+#menu li
+{
+    list-style-type:none;
+    display:inline-block;
+    width:0 auto;
+    margin:0 auto;
+    padding:2px;
+    text-align:center;
+    background-color:rgb(81,71,61);
+}
+#menu 
+{
+    background-image:url('pics/coffey.jpg');
+    background-repeat:no-repeat;
+    background-position:top;
+}
+
+
+#content
+{
+    background-color:rgb(234,231,210);
+    width:940px;
+    padding:0;
+    border:5px solid gray;
+    margin:0; 
+}
+
+#maincontent
+{
+    float:left;
+    width:500px;
+    padding:5px;
+    border:5px solid gray;
+    margin:0; 
+}
+#maincontent h1
+{
+    font:Verdana;
+    font-size:24px;
+    color:Green;
+    
+}
+#subcontent
+{
+    float:right;
+    width:400px;
+    padding:5px;
+    border:5px solid red;
+    margin:0; 
+}
+
+#bottomcontent
+{
+    clear:both;
+    width:900px;
+    margin:5px;
+}
+
+    a:link {color:#FF0000;}  /* unvisited link */
+    a:visited {color:#00FF00;}  /* visited link */
+    a:hover {color:#FF00FF;}  /* mouse over link */
+    a:active {color:#0000FF;}  /* selected link */ 
+    
+h1 
+{
+    font:Verdana;
+
+}
