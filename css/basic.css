@@ -48,7 +48,6 @@
     padding-bottom:0;
     padding-right:40px;
     margin:0;
-    
     background-color:gray;
     color:white;
     text-decoration:none;
@@ -97,9 +96,18 @@
 }
 #maincontent h1
 {
-    font:Verdana;
+    font-family:Times New Roman";
     font-size:28px;
     color:gray;
+    font-weight:400;
+    padding:10px;
+}
+#maincontent p
+{
+    font-family:Verdana;
+    font-size:14px;
+    color:gray;
+    
 }
 #subcontent
 {
@@ -111,8 +119,10 @@
 }
 #subcontent h1
 {
-    font:Verdana;
+    font-family:Times New Roman;
+    /*font-weight:300;*/
     font-size:18px;
+    font-style:bold;
     color:gray;
 }
 #subcontent h2
@@ -124,7 +134,9 @@
 }
 #subcontent p
 {
-    font-size:13px;
+    font-family:Verdana;
+    font-size:10px;
+    line-height:1.5em;
 }
 #subcontent ul
 {
